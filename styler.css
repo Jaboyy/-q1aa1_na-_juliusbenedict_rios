@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+    
+
+#navbar {
+  
+    background-image: url(culur.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size:  cover;
+    width: 100vw;
+    height: 10vh;
+    
+}
+
+#pic{
+    
+    width: 35px;
+    height: 35px;
+    border-radius: 60%;
+    text-align: center;
+    
+    
+    margin-right:auto;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: auto;
+
+}
+
+#text{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(14, 197, 203);
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 70%;
+    float: right;
+    
+
+}
+
+#text2 {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(14, 197, 203);
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 80%;
+    margin-top: 10px;   
+    float: right;
+
+}
+
+.banner
+{
+    background-color: rgb(4, 67, 107);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  cover;
+    width: 100vw;
+    height: 80vh;
+}
+
+        
+.banner h1{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+
+
+
+.pic  {
+   
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+    height: 30%;
+    margin-bottom: 30px;
+
+}
+
+.pic #image{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #e89059;
+    margin: 20px;
+    object-fit: cover; 
+}
+
+
+.footer{
+    background-image: url(culur.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size:  cover;
+    display: inline-block;
+    
+    width: 100vw;
+    height: 10vh;
+}
+
+.footer p{
+    
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(203, 243, 245);
+    margin-bottom: 5vh;
+    text-align: left;
+}
+
+#link a img{
+    margin-right: 2.5px;
+   float: right;
+   text-align: center;
+   padding: 5px;
+   
+   width: 2vw;
+
+   height: 4vh;
+}
